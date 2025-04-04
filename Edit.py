@@ -47,7 +47,7 @@ class Edit:
 
    def add(self):
     if (self.q_entry.get()!='' and self.r_entry.get()!=''):
-     with open(r"C:\Users\Himanshu Jha\Downloads\project folder\project folder\Queries.json","r") as file:
+     with open(r"Queries.json","r") as file:
        qs=json.load(file)
      #k=self.convert(self.q_entry.get())
      v=self.r_entry.get()
