@@ -1,0 +1,13 @@
+face.py
+from gtts import gTts songs.py
+recognition_log.csv
+save_image.py
+tryspacy.py
+.vscode.iml
+misc.xml
+modules.xml
+profiles_settings.xml
+__pycache__
+known_faces
+test_images
+.idea
