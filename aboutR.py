@@ -11,7 +11,7 @@ class AboutWindow:
         
 
          # background images
-        img=Image.open(r".vscode/wall.jpg")
+        img=Image.open(r"wall.jpg")
         img=img.resize((1530,790),Image.LANCZOS)
         self.bg = ImageTk.PhotoImage(img)
 

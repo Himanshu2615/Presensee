@@ -56,7 +56,7 @@ signup_window=Tk()
 signup_window.geometry("1520x790+0+0");
 signup_window.title('Sign Up Page')
 # signup_window.resizable(False,False)
-background=ImageTk.PhotoImage(file='.vscode/images/bg11.jpeg')
+background=ImageTk.PhotoImage(file='images/bg11.jpeg')
 bg6label=Label(signup_window,image=background)
 bg6label.grid()
 frame=Frame(signup_window,bg='deepskyblue4')

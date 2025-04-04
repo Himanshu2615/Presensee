@@ -16,7 +16,7 @@ class Student:
         self.root.geometry("1520x790+0+0")
         self.root.title("Face Identification System")
 
-        bg_img = Image.open(r".vscode\images\background.jpg")
+        bg_img = Image.open(r"images\background.jpg")
         bg_img = bg_img.resize((1530, 790), Image.BILINEAR)
         self.bg_photoimg = ImageTk.PhotoImage(bg_img)
 

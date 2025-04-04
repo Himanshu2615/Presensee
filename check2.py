@@ -23,7 +23,7 @@ class FaceIdentificationSystem:
 
 
     def create_main_window(self):
-        bg_img = Image.open(r".vscode\bg117.webp")
+        bg_img = Image.open(r"bg117.webp")
         bg_img = bg_img.resize((1530, 790), Image.BILINEAR)
         self.bg_photoimg = ImageTk.PhotoImage(bg_img)
         background_label = tk.Label(self.root, image=self.bg_photoimg)

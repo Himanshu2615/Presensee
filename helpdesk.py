@@ -27,7 +27,7 @@ class HelpDeskApp:
         canvas.create_text(550, 90, text=" Contact Us", font=("times new roman", 45, "bold"), anchor=tk.NW, fill="black")
 
         # Call icon image
-        img1 = Image.open(r".vscode/image x.jpg")
+        img1 = Image.open(r"/image x.jpg")
         img1 = img1.resize((120, 100), Image.LANCZOS)
         self.bg1 = ImageTk.PhotoImage(img1)
         canvas.create_image(270, 300, image=self.bg1, anchor=tk.NW)
@@ -37,7 +37,7 @@ class HelpDeskApp:
         canvas.create_text(280, 430, text=" 8303727022", font=("Calibri (Body)", 10, ), anchor=tk.NW, fill="black")
 
         # Add email icon image
-        img2 = Image.open(r".vscode/images (1).png")
+        img2 = Image.open(r"/images (1).png")
         img2 = img2.resize((120, 100), Image.LANCZOS)
         self.bg2 = ImageTk.PhotoImage(img2)
         canvas.create_image(660, 300, image=self.bg2, anchor=tk.NW)
@@ -50,7 +50,7 @@ class HelpDeskApp:
         canvas.create_text(650, 430, text=" abhverma45@gmail.com", font=("Calibri (Body)", 10, ), anchor=tk.NW, fill="black")
 
         # Add Github icon image
-        img3 = Image.open(r".vscode/download.jpeg")
+        img3 = Image.open(r"/download.jpeg")
         img3 = img3.resize((120, 100), Image.LANCZOS)
         self.bg3 = ImageTk.PhotoImage(img3)
         canvas.create_image(1050, 300, image=self.bg3, anchor=tk.NW)

@@ -12,7 +12,7 @@ class Show:
      self.main_frame=Frame(self.root,bg='powder blue',width=screen_width,height=screen_height)
      self.main_frame.pack()
     
-     img_chat=Image.open(r".vscode/showpic.png")
+     img_chat=Image.open(r"showpic.png")
      img_chat=img_chat.resize((190,78),Image.LANCZOS)
      self.photoimg=ImageTk.PhotoImage(img_chat)
 
@@ -25,7 +25,7 @@ class Show:
      self.text.pack()
      self.text.config(yscrollcommand=self.scroll_y.set)
 
-     f=open(".vscode\saved_queries.txt","r")
+     f=open("saved_queries.txt","r")
      self.text.insert(END, f.read())
      self.text.config(state=DISABLED)
 

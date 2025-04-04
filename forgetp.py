@@ -37,7 +37,7 @@ def forget_pass1():
         messagebox.showinfo("Success", 'Password Changed Successfully')
 window = Tk()
 window.title('Change Password')
-bgpic = ImageTk.PhotoImage(file='.vscode/images/bg14.webp')
+bgpic = ImageTk.PhotoImage(file='/images/bg14.webp')
 bglabel = Label(window, image=bgpic)
 bglabel.grid()
 frame=Frame(window,bg='orange')

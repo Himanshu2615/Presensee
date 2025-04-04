@@ -25,7 +25,7 @@ class FaceIdentificationSystem:
         self.update_time()
 
     def create_main_window(self):
-        bg_img = Image.open(r".vscode\images\AI_shutterstock_1722492775-scaled.jpg")
+        bg_img = Image.open(r"images\AI_shutterstock_1722492775-scaled.jpg")
         bg_img = bg_img.resize((1530, 790), Image.BILINEAR)
         self.bg_photoimg = ImageTk.PhotoImage(bg_img)
         background_label = tk.Label(self.root, image=self.bg_photoimg)
