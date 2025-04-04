@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: hi_IN\n"
+
+msgid "Student Details"
+msgstr "छात्र विवरण"
+
+msgid "Face Detector"
+msgstr "चेहरा डिटेक्टर"
+
+msgid "Attendance"
+msgstr "उपस्थिति"
+
+msgid "Train Data"
+msgstr "डेटा प्रशिक्षण"
+
+msgid "Photos"
+msgstr "फोटोज"
+
+msgid "Help"
+msgstr "सहायता"
+
+msgid "Chat-Bot"
+msgstr "चैट-बॉट"

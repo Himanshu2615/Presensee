@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en_US\n"
+
+msgid "Student Details"
+msgstr "Student Details Translation"
+
+msgid "Face Detector"
+msgstr "Face Detector Translation"
+
+msgid "Attendance"
+msgstr "Attendance Translation"
+
+msgid "Train Data"
+msgstr "Train Data Translation"
+
+msgid "Photos"
+msgstr "Photos Translation"
+
+msgid "Help"
+msgstr "Help Translation"
+
+msgid "Chat-Bot"
+msgstr "Chat-Bot Translation"
